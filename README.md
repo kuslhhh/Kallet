@@ -1,7 +1,3 @@
-Based on the features and details you've provided, here's a draft for your README file:
-
----
-
 # Kallet
 
 **Kallet** is a wallet generator and manager that allows users to create and manage cryptocurrency wallets, view and manage private/public keys, and securely store and copy sensitive information. It is designed to work seamlessly in React projects.
