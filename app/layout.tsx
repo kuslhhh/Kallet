@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/themeprovider";
+import { Toaster } from "@/components/ui/sonner";
+import Footer from "@/components/Footer";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -10,14 +13,14 @@ export const metadata: Metadata = {
   icons: [
     {
       rel: "icon",
-      type: "image/x-icon",
-      url: "/favicon-light.ico",
+      type: "image/png",
+      url: "/k-dark.png",
       media: "(prefers-color-scheme: light)",
     },
     {
       rel: "icon",
       type: "image/png",
-      url: "/favicon-dark.ico",
+      url: "/k-light.png",
       media: "(prefers-color-scheme: dark)",
     },
   ],
