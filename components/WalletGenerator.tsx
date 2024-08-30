@@ -396,7 +396,7 @@ const WalletGenerator = () => {
                   {gridView ? <Grid2X2 /> : <List />}
                 </Button>
               )}
-              <Button onClick={() => handleAddWallet()}>Add Wallet</Button>
+              <Button onClick={() => handleAddWallet()}> Add Wallet</Button>
               <AlertDialog>
                 <AlertDialogTrigger asChild>
                   <Button variant="destructive" className="self-end">
